@@ -1,8 +1,11 @@
 {% extends 'base.html' %} 
 
+{% load static %} 
+
 {% block title %}About Me{% endblock title %} 
 
 {% block content %} 
 <h1>About the Author</h1>
 <p>My name is El Rey. </p>
+<img src="{% static 'img/goku_ultra_instinct.jpg' %}"
 {% endblock content %} 
